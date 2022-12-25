@@ -1,0 +1,31 @@
+{
+  "name": "Music-App-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon main.js --ignore db/*",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahmanErturk/Music-App-Backend.git"
+  },
+  "keywords": [],
+  "author": "RahmanErturk <",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahmanErturk/Music-App-Backend/issues"
+  },
+  "homepage": "https://github.com/RahmanErturk/Music-App-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lowdb": "^5.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
