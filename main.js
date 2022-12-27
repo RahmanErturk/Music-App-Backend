@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
+import homeRouter from "./router/homeRouter.js";
 import songRouter from "./router/songRouter.js";
 import playlistRouter from "./router/playlistRouter.js";
 import artistRouter from "./router/artistRouter.js";
@@ -14,6 +15,7 @@ const port = process.env.PORT || 3000;
 server.use(express.json());
 server.use(cors({ origin: "*" }));
 
+server.use("/api", homeRouter);
 server.use("/api/songs", songRouter);
 server.use("/api/playlists", playlistRouter);
 server.use("/api/artists", artistRouter);
