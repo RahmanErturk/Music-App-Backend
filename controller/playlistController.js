@@ -35,14 +35,14 @@ export const editPlaylist = async (req, res) => {
   await db.read();
 
   const index = db.data.playlists.findIndex((pl) => pl.id === +req.params.id);
-
+  console.log(index);
   if (index < 0) return res.status(404).json("Not Found!");
 
   db.data.playlists[index] = { ...db.data.playlists[index], ...req.body };
 
   await db.write();
 
-  res.status(202).json(`Playlist ${db.data.playlist[index].name} is updated.`);
+  res.status(202).json(`Playlist is updated.`);
 };
 
 export const deletePlaylist = async (req, res) => {

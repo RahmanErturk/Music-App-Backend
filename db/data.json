@@ -7,7 +7,7 @@
       "album": "Alone - Single",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/be/f5/9d/bef59da4-87fb-5173-dc74-365304b329f9/198000878160.jpg/400x400bb.jpg",
       "file": "music/Alone_-_Color_Out.mp3",
-      "isLiked": false
+      "isLiked": true
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "album": "25",
       "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Adele_-_25_%28Official_Album_Cover%29.png",
       "file": "music/Adele_Hello.mp3",
-      "isLiked": false
+      "isLiked": true
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "album": "21",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Adele_-_21.png/220px-Adele_-_21.png",
       "file": "music/Adele_Rolling_in_the_Deep_Official_Music_Video_.mp3",
-      "isLiked": false
+      "isLiked": true
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "album": "Back in Black",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/ACDC_Back_in_Black_cover.svg/1024px-ACDC_Back_in_Black_cover.svg.png",
       "file": "music/AC_DC_Back_In_Black.mp3",
-      "isLiked": true
+      "isLiked": false
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "album": "Harry's House",
       "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Harry_Styles_-_Harry%27s_House.png",
       "file": "music/Harry_Styles_As_It_Was_Lyrics_.mp3",
-      "isLiked": true
+      "isLiked": false
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "album": "Fine Line",
       "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Harry_Styles_-_Fine_Line.png",
       "file": "music/Harry_Styles_Golden.mp3",
-      "isLiked": true
+      "isLiked": false
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "album": "Fine Line",
       "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Harry_Styles_-_Fine_Line.png",
       "file": "music/Harry_Styles_Watermelon_Sugar.mp3",
-      "isLiked": true
+      "isLiked": false
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "album": "Ölürüm Sana",
       "image": "https://upload.wikimedia.org/wikipedia/en/d/d0/Tarkan_-_%C3%96l%C3%BCr%C3%BCm_Sana.jpg",
       "file": "music/Kiss_Kiss_Tarkan_.mp3",
-      "isLiked": true
+      "isLiked": false
     },
     {
       "id": 10,
@@ -173,7 +173,7 @@
     },
     {
       "id": 20,
-      "title": "Still D.R.E. (feat. Snoop Dogg)",
+      "title": "Still D.R.E.",
       "artist": "Dr. Dre, Snoop Dogg",
       "album": "2001",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DrDre-2001.jpg/220px-DrDre-2001.jpg",
@@ -183,7 +183,7 @@
     },
     {
       "id": 21,
-      "title": "The Next Episode (feat. Snoop Dogg)",
+      "title": "The Next Episode",
       "artist": "Dr. Dre, Snoop Dogg",
       "album": "2001",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DrDre-2001.jpg/220px-DrDre-2001.jpg",
@@ -225,7 +225,7 @@
       "artist": "Louis Armstrong",
       "album": "What a Wonderful World",
       "image": "https://m.media-amazon.com/images/I/71oBdOk+2BL._SL1099_.jpg",
-      "file": "music/Sia_Unstoppable.mp3",
+      "file": "music/Louis_Armstrong_What_A_Wonderful_World.mp3",
       "isLiked": false
     }
   ],
@@ -234,6 +234,7 @@
       "id": 1,
       "name": "Pop",
       "image": "https://i.ytimg.com/vi/0CWUFzbXVJg/maxresdefault.jpg",
+      "cover": "https://i.ytimg.com/vi/0CWUFzbXVJg/maxresdefault.jpg",
       "songs": [
         1,
         2,
@@ -254,16 +255,20 @@
       "id": 2,
       "name": "Rock",
       "image": "https://musicindustryhowtoimages.s3.amazonaws.com/wp-content/uploads/2022/03/06100159/What-Is-Rock-Music.jpg",
+      "cover": "https://musicindustryhowtoimages.s3.amazonaws.com/wp-content/uploads/2022/03/06100159/What-Is-Rock-Music.jpg",
       "songs": [
         15,
         17,
-        18
+        18,
+        1,
+        2
       ]
     },
     {
       "id": 3,
       "name": "Hip-Hop",
       "image": "https://cdn.shopify.com/s/files/1/2245/0063/articles/Types_of_Rap_Music.jpg?v=1640604916",
+      "cover": "https://cdn.shopify.com/s/files/1/2245/0063/articles/Types_of_Rap_Music.jpg?v=1640604916",
       "songs": [
         20,
         21,
@@ -274,6 +279,7 @@
       "id": 4,
       "name": "Jazz",
       "image": "https://www.gannett-cdn.com/-mm-/fe540925f187d73c8a91c93ece4e29936ea358fc/c=0-885-3804-3034/local/-/media/2015/07/16/MIGroup/Lansing/635726564289570272-ThinkstockPhotos-486813379-1-.jpg",
+      "cover": "https://www.gannett-cdn.com/-mm-/fe540925f187d73c8a91c93ece4e29936ea358fc/c=0-885-3804-3034/local/-/media/2015/07/16/MIGroup/Lansing/635726564289570272-ThinkstockPhotos-486813379-1-.jpg",
       "songs": [
         23,
         24,
@@ -284,18 +290,31 @@
       "id": 5,
       "name": "Metal",
       "image": "https://cdn.prod.www.spiegel.de/images/e293602f-c1c7-4284-b141-ece5c80c37a7_w1200_r1_fpx53_fpy44.jpg",
+      "cover": "https://cdn.prod.www.spiegel.de/images/e293602f-c1c7-4284-b141-ece5c80c37a7_w1200_r1_fpx53_fpy44.jpg",
       "songs": [
         5,
         16,
         19
       ]
+    },
+    {
+      "name": "Bana özel",
+      "image": "",
+      "cover": "",
+      "songs": [
+        6,
+        1,
+        9
+      ],
+      "id": 6
     }
   ],
   "artists": [
     {
       "id": 1,
       "name": "Adele",
-      "image": "",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Adele_-_25_%28Official_Album_Cover%29.png",
+      "cover": "https://assets.vogue.com/photos/62c1b040cc0090153719146e/master/w_2560%2Cc_limit/GettyImages-1406473145.jpg",
       "songs": [
         2,
         3,
@@ -305,7 +324,8 @@
     {
       "id": 2,
       "name": "Harry Styles",
-      "image": "",
+      "image": "http://www.laut.de/Harry-Styles/harry-styles-217668.jpg",
+      "cover": "https://www.chicagotribune.com/resizer/U4nku9xscGRKw7rcUyuk4NrTTIc=/arc-anglerfish-arc2-prod-tronc/public/6SHW2DZIF5E6PHGQIQORFYQ7Q4.jpg",
       "songs": [
         6,
         7,
@@ -315,7 +335,8 @@
     {
       "id": 3,
       "name": "Sia",
-      "image": "",
+      "image": "https://images.deltaradio.de/files/2021-02/sia.jpg?rect=center%2Cmiddle%2C1211%2C681&fit=crop&crop=faces&w=500&h=281&dpr=3&fm=webp",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sia_Furler_in_concert_with_Zero_7.jpg/800px-Sia_Furler_in_concert_with_Zero_7.jpg",
       "songs": [
         12,
         13,
@@ -325,7 +346,8 @@
     {
       "id": 4,
       "name": "Tarkan",
-      "image": "",
+      "image": "https://www.indyturk.com/sites/default/files/styles/1368x911/public/article/main_image/2022/02/18/868656-1759776001.jpg?itok=YWncFIjS",
+      "cover": "https://www.t-vine.com/wp-content/uploads/2019/08/Tarkan-live-in-Moscow_FB-Tarkan_15May19-1024x682.jpg",
       "songs": [
         9,
         10,

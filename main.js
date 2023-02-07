@@ -10,7 +10,7 @@ import artistRouter from "./router/artistRouter.js";
 dotenv.config();
 
 const server = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4002;
 
 server.use(express.json());
 server.use(cors({ origin: "*" }));
